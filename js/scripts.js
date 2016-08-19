@@ -1,20 +1,19 @@
 // Business Logic
 var numbers = [];
-var countTo = function(number) {
-  for (var i = 1; i <= number; i++) {
-    numbers.push(i + " ");
-    console.log(numbers);
+var pingPong = function(countTo) {
+  for (var i = 1; i <= countTo; i++) {
+    numbers.push(i + "");
   }
-}
+};
 
 // UI Logic
 $(document).ready(function(){
   $("#input form").submit(function(event){
     event.preventDefault();
-    number = parseInt($("input#number").val());
-    var output = countTo(number);
+    var countTo = parseInt($("input#number").val());
+    var output = pingPong(countTo);
 
-    $("#ping-pong").text(output);
+    $("#ping-pong").text(numbers.join(", "));
     $("#output").show();
   });
 
