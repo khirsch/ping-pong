@@ -1,5 +1,4 @@
 # Ping-Pong #
-============================
 
 #### Written by Katrina Hirsch (August 19th, 2016)
 
@@ -9,13 +8,27 @@ This is a program that accepts an inputted number from a user and then returns a
 
 ## Specifications ##
 
-*
+* The program only accepts numerical inputs. Letters and punctuation are ignored.
+  * Example Input: "!"
+  * Example Output: ""
+
+* Numbers divisible by 3 are replaced with "ping".
+  * Example Input: "6"
+  * Example Output: "ping"
+
+* Numbers divisible by 5 are replaced with "pong".
+  * Example Input: "10"
+  * Example Output: "pong"
+
+* Numbers divisible by 15 are replaced with "ping-pong".
+  * Example Input: "30"
+  * Example Output: "ping-pong"
 
 ## Setup/Installation Instructions ##
 
-* Download
-
-* A web browser (Chrome is recommended)
+* Copy the repository from GitHub (https://github.com/khirsch/ping-pong/)
+* Open the index.html file in a browser window (Chrome is recommended)
+* Open the console to confirm that JavaScript and jQuery are running (Menu > More Tools > Developer Tools > Console)
 
 ## GitHub Pages ##
 
