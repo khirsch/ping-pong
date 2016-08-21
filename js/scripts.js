@@ -36,6 +36,7 @@ $(document).ready(function(){
   });
 
   $("#reset").click(function(event) {
+    $("#ping-pong").empty();
     $("#output").hide();
   });
 
