@@ -8,7 +8,7 @@ This is a program that accepts an inputted number from a user and then returns a
 
 ## Specifications ##
 
-* The program only accepts numerical inputs from 1 to 100. Letters and punctuation are ignored.
+* The program only accepts numerical inputs. Letters and punctuation are ignored.
   * Example Input: "!"
   * Example Output: ""
 
